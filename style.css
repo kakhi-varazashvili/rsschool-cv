@@ -255,3 +255,8 @@ h1 {
 .pr{
     width: 100%;
 }
+.kakhi {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
