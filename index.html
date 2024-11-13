@@ -105,22 +105,11 @@
         <div class="line"></div>
         <pre class="pr">
             <code class="cd">
-                function calculateBMI() {
-                    const weight = parseFloat(document.getElementById("weight").value);
-                    const height = parseFloat(document.getElementById("height").value) / 100;
-                        
-                    const bmi = weight / (height * height);
-                    const interpretation = getInterpretation(bmi);
-                    const resultText = `Your BMI: ${bmi.toFixed(2)}<br>Interpretation: ${interpretation}`;
-                    document.getElementById("result").innerHTML = resultText;
-                }
-                        
-                function getInterpretation(bmi) {
-                    if (bmi < 18.5) { return "Underweight"; }
-                    else if (bmi >= 18.5 && bmi < 24.9) { return "Normal weight"; }
-                    else if (bmi >= 25 && bmi < 29.9) { return "Overweight"; }
-                    else { return "Obese"; }
-                }
+                if (bmi &lt;18.5) {return "Underweight";}
+                else if (bmi &gt;= 18.5 &amp;&amp; bmi &lt;24.9) { return "Normal weight"; }
+                else if (bmi &gt;= 25 &amp;&amp; bmi &lt;29.9) { return "Overweight"; }
+                else { return "Obese"; }
+                
             </code>
         </pre>        
       </section>
