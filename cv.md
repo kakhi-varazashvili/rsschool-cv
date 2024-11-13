@@ -21,3 +21,49 @@ my skills. I believe in continuous learning and am confident in my ability to ad
 quickly to new challenges.
 
 ---
+
+## **Education:**
+
+- **Ivane Javakhishvili Tbilisi State University:**
+  The first-level Bachelor's Degree in Italian Philology;
+
+---
+
+**Courses**
+
+- **RSSchool** :
+  JavaScript/Front-End Course EN 2023Q4 - in process
+
+- **Skillwill**:
+    - Front-End Development (React.JS) - 2023
+    - English Language Course - 2023
+
+- **IT Step Academy**:
+  Front-End Development (Angular) - 2022
+
+- **University for Foreigners of Perugia (Italy)**:
+    - Italian language course C1 (technical-economic) - 2013
+    - Italian language course C1 (technical-economic) - 2010
+
+---
+
+**Languages:**
+
+- Georgian: Native;
+- Italian: C1;
+- English: B1;
+- Russian: B1;
+
+---
+
+**Skills:**
+
+- HTML5
+- CSS3
+- JavaScript ES6
+- Git, GitHub
+- React.js
+- Angular
+
+
+---
