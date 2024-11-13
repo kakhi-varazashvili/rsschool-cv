@@ -67,3 +67,52 @@ quickly to new challenges.
 
 
 ---
+
+**Code Example:**
+**JavaScript**
+---
+
+```
+function calculateBMI() {
+  const weight = parseFloat(document.getElementById("weight").value);
+  const height = parseFloat(document.getElementById("height").value) / 100; // Convert to meters
+
+
+  const bmi = weight / (height * height);
+  const interpretation = getInterpretation(bmi);
+
+  const resultText = `Your BMI: ${bmi.toFixed(2)}<br>Interpretation: ${interpretation}`;
+  document.getElementById("result").innerHTML = resultText;
+}
+
+function getInterpretation(bmi) {
+  if (bmi < 18.5) {
+    return "Underweight";
+  } else if (bmi >= 18.5 && bmi < 24.9) {
+    return "Normal weight";
+  } else if (bmi >= 25 && bmi < 29.9) {
+    return "Overweight";
+  } else {
+    return "Obese";
+  }
+}
+
+```
+---
+**Experience:**
+- Freelancer Front-End Developer
+
+  
+**Projects:**
+
+- [Responsive Landing Page](https://github.com/kakhi-varazashvili/Travelo)
+- [Responsive Landing Page](https://github.com/kakhi-varazashvili/Ruft)
+- [TicTacToe Game](https://github.com/kakhi-varazashvili/TicTacToe)
+- [Get Random Color](https://github.com/kakhi-varazashvili/GetRandomColor)
+- [User Register](https://kakhi-varazashvili.github.io/User-Register/)
+- [Maybelline site using API](https://github.com/kakhi-varazashvili/Maybelline_API)
+- [Lottery game](https://kakhi-varazashvili.github.io/Lottery-Game/)
+- [Guess number](https://github.com/kakhi-varazashvili/Guess-Number)
+- [Responsive travel page](https://github.com/kakhi-varazashvili/Travel-Website)
+- [Books with React components](https://github.com/kakhi-varazashvili/Books)
+- [React CSS styles](https://github.com/kakhi-varazashvili/React-CSS-Styles)
