@@ -138,6 +138,7 @@ body {
   margin: 20px auto 0;
   font-family: Arial, sans-serif;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   max-width: 1024px;
@@ -190,6 +191,7 @@ a {
 } */
 header {
   margin: 0 0 20px;
+  width: 100%;
 }
 .line {
   height: 2px;

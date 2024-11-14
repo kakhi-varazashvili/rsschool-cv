@@ -7,7 +7,7 @@
     <title>Kakhi Varazashvili</title>
   </head>
   <body>
-    <section class="main-div">
+
       <header>
         <nav>
           <a href="#contact">Contact</a>
@@ -38,6 +38,7 @@
         </p>
       </section>
       <section>
+
         <h2>Contact Information</h2>
         <div class="line"></div>
         <ul>
@@ -51,6 +52,7 @@
         </ul>
       </section>
       <section id="education">
+        <br>
         <h2>Education and Courses</h2>
         <div class="line"></div>
         <ul class="edu">
@@ -106,15 +108,25 @@
       <section id="code">
         <h2>Code Example</h2>
         <div class="line"></div>
-        <!-- <pre class="pr">
-            <code class="cd">
-                if (bmi &lt;18.5) {return "Underweight";}
-                else if (bmi &gt;= 18.5 &amp;&amp; bmi &lt;24.9) { return "Normal weight"; }
-                else if (bmi &gt;= 25 &amp;&amp; bmi &lt;29.9) { return "Overweight"; }
-                else { return "Obese"; }
-                
-            </code>
-        </pre>         -->
+        <pre class="pr">
+          <code class="cd">
+  const slideDiv = document.querySelectorAll(".slide-div");
+  let slidesLength = slideDiv.length;
+  let currentIndex = 0;
+  const slides = document.querySelectorAll(".slide");
+  const totalSlides = slides.length;
+  
+  function showSlide(index) {
+      if (index &lt; 0) {
+          currentIndex = totalSlides - 1;
+      } else if (index &gt;= totalSlides) {
+          currentIndex = 0;
+      } else {
+          currentIndex = index;
+      }
+  }
+          </code>
+      </pre>    
       </section>
       <section>
         <h2 id="experience" class="title">Work Experience</h2>
@@ -198,6 +210,6 @@
             width="100">
         </a>
       </footer>
-    </section>
+
   </body>
 </html>
