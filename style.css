@@ -135,15 +135,17 @@ a {
 }
 
 body {
-  margin: 0;
+  margin: 20px auto 0;
   font-family: Arial, sans-serif;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 1024px;
+
 }
 
 nav {
-  background-color: rgb(243, 243, 246);
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -152,10 +154,12 @@ nav {
 nav a {
   float: left;
   display: block;
-  color: rgb(9, 9, 9);
+  /* color: rgb(9, 9, 9); */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  color: rgb(3, 76, 121);
+
 }
 
 nav a:hover {
@@ -172,22 +176,25 @@ h2 {
   font-size: 16px;
   font-family: Arial, sans-serif;
   font-weight: 600;
+  color: rgb(1, 99, 165);
 }
 span,
 a {
   font-weight: 600;
   font-size: 14px;
 }
-section {
+/* section {
   margin-top: 20px;
-}
-.main-div {
+} */
+/* .main-div {
   width: 60%;
 
   justify-content: center;
-}
+} */
 header {
   margin: 0 0 20px;
+  width: 100%;
+  /* background-color: blue; */
 }
 .line {
   height: 2px;
@@ -196,10 +203,11 @@ header {
   margin: 7px 0 14px 0;
 }
 h1 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 900;
   font-family: Arial, sans-serif;
   text-align: center;
+  color: rgb(1, 99, 165);
 }
 .edu ul {
   list-style-type: disc;
@@ -235,6 +243,7 @@ pre {
   justify-content: space-around;
   align-items: center;
   background-color: rgb(243, 243, 246);
+  padding: 20px;
 }
 .edu {
   font-weight: 600;

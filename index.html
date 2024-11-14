@@ -7,7 +7,7 @@
     <title>Kakhi Varazashvili</title>
   </head>
   <body>
-    <section class="main-div">
+
       <header>
         <nav>
           <a href="#contact">Contact</a>
@@ -19,10 +19,13 @@
           <a href="#projects">Projects</a>
         </nav>
       </header>
-      <div class="kakhi">
+
+      <main>
+
+      <section class="kakhi">
         <h1>KAKHI VARAZASHVILI</h1>
-        <img src="kv.jpg" alt="Kakhi" width="100">
-      </div>
+        <img src="kv.jpg" alt="Kakhi's photo" width="100">
+      </section>
       <section>
         <h2>Summary</h2>
         <div class="line"></div>
@@ -35,6 +38,7 @@
         </p>
       </section>
       <section>
+        <br>
         <h2>Contact Information</h2>
         <div class="line"></div>
         <ul>
@@ -48,6 +52,7 @@
         </ul>
       </section>
       <section id="education">
+        <br>
         <h2>Education and Courses</h2>
         <div class="line"></div>
         <ul class="edu">
@@ -79,6 +84,7 @@
         </ul>
       </section>
       <section id="languages">
+          <br>
         <h2>Languages</h2>
         <div class="line"></div>
         <ul>
@@ -88,6 +94,8 @@
         </ul>
       </section>
       <section id="skills">
+        <br>
+
         <h2>Skills</h2>
         <div class="line"></div>
         <ul class="skill">
@@ -101,19 +109,32 @@
         </ul>
       </section>
       <section id="code">
+        <br>
         <h2>Code Example</h2>
         <div class="line"></div>
-        <!-- <pre class="pr">
-            <code class="cd">
-                if (bmi &lt;18.5) {return "Underweight";}
-                else if (bmi &gt;= 18.5 &amp;&amp; bmi &lt;24.9) { return "Normal weight"; }
-                else if (bmi &gt;= 25 &amp;&amp; bmi &lt;29.9) { return "Overweight"; }
-                else { return "Obese"; }
-                
-            </code>
-        </pre>         -->
+        <pre class="pr">
+          <code class="cd">
+  const slideDiv = document.querySelectorAll(".slide-div");
+  let slidesLength = slideDiv.length;
+  let currentIndex = 0;
+  const slides = document.querySelectorAll(".slide");
+  const totalSlides = slides.length;
+  
+  function showSlide(index) {
+      if (index &lt; 0) {
+          currentIndex = totalSlides - 1;
+      } else if (index &gt;= totalSlides) {
+          currentIndex = 0;
+      } else {
+          currentIndex = index;
+      }
+  }
+          </code>
+      </pre>    
       </section>
       <section>
+        <br>
+
         <h2 id="experience" class="title">Work Experience</h2>
         <div class="line"></div>
         <ul>
@@ -176,6 +197,9 @@
           </li>
         </ul>
       </section>
+
+
+    </main>
       <footer class="footer">
         <a href="https://github.com/kakhi-varazashvili">
           <img
@@ -184,14 +208,14 @@
             class="icons"
             width="40">
         </a>
-        <span>November 27, 2023</span>
-        <a href="https://rs.school/js-en/">
+        <span>November 14, 2024</span>
+        <a href="https://rs.school/courses/javascript">
           <img
             src="https://app.rs.school/static/images/logo-rsschool3.png"
             alt="RS School logo"
             width="100">
         </a>
       </footer>
-    </section>
+
   </body>
 </html>
