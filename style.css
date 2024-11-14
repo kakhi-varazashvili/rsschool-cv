@@ -135,11 +135,13 @@ a {
 }
 
 body {
-  margin: 0;
+  margin: 20px auto 0;
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 1024px;
+
 }
 
 nav {
@@ -178,14 +180,14 @@ a {
   font-weight: 600;
   font-size: 14px;
 }
-section {
+/* section {
   margin-top: 20px;
-}
-.main-div {
+} */
+/* .main-div {
   width: 60%;
 
   justify-content: center;
-}
+} */
 header {
   margin: 0 0 20px;
 }
@@ -235,6 +237,7 @@ pre {
   justify-content: space-around;
   align-items: center;
   background-color: rgb(243, 243, 246);
+  padding: 20px;
 }
 .edu {
   font-weight: 600;
